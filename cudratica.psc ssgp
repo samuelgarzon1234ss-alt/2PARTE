@@ -1,0 +1,21 @@
+Algoritmo cudratica
+	Definir a, b, c, x Como Real
+	Escribir "ingrese un valor de (a)"
+	leer a
+	Escribir "ingrese valor de (b)"
+	leer b
+	Escribir "ingrese valor de (c)"
+	leer c
+	x=b^2 - (4 * a * c)
+	si x=0 Entonces
+		Escribir "tiene unico resultado "
+	SiNo
+		si x<0  Entonces
+			Escribir "la ecuacion no tiene solucion"
+		SiNo
+			si x>0 Entonces
+				Escribir  "si tiene solucion"
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

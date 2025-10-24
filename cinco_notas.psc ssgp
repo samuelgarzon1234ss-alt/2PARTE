@@ -1,0 +1,25 @@
+Algoritmo cinco_notas
+	Definir n1, n2, n3 , n4, n5, nf, prom Como Real
+	Escribir n1 " coloca tu primera nota"
+	leer n1
+	Escribir n2 " coloca tu segunda nota"
+	leer n2
+	Escribir n3 " coloca tu tercera nota"
+	leer n3
+	Escribir n4 " coloca tu cuarta nota"
+	leer n4
+	Escribir n5 " coloca tu quinta nota"
+	leer n5
+	prom=(n1+n2+n3+n4+n5)/5
+	Escribir " tu promedio es " prom
+	si prom>=3.5 Entonces
+		Escribir "aprobo la materia" prom
+	sino 
+		si prom>3.5 Entonces
+			Escribir "reprobo la materia" prom
+		
+		FinSi
+	FinSi
+	
+
+FinAlgoritmo
